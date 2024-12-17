@@ -11,7 +11,7 @@ This is a chat application built using the MERN stack (MongoDB, Express.js, Reac
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/your-username/mern-chat-app.git`
+1. Clone the repository: `git clone https://github.com/ashish082003/mern-chat-app.git`
 2. Navigate to the project directory: `cd mern-chat-app`
 3. Install the dependencies: `npm install`
 4. Set up the environment variables:
