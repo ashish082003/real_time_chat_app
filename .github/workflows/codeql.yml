@@ -12,6 +12,7 @@
 name: "CodeQL Advanced"
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "security-fixes" ]
   pull_request:
