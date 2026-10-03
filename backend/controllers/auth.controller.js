@@ -56,6 +56,9 @@ export const signup = async (req, res) => {
 export const login = async (req, res) => {
 	try {
 		const { username, password } = req.body;
+		if (typeof username !== "string") {
+			return res.status(400).json({ error: "Invalid username format" });
+		}
 		const user = await User.findOne({ username });
 		const isPasswordCorrect = await bcrypt.compare(password, user?.password || "");
 
